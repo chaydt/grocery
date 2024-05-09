@@ -1,0 +1,7 @@
+item = item.strip()
+  items = item.split()
+
+  for i in items:
+    list.append(i)
+
+  print(f"added {item} to list \n")
