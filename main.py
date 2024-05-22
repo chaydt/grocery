@@ -1,4 +1,7 @@
 #grocery list
+#change 
+#change  2
+
 from time import sleep
 
 list = []
@@ -20,9 +23,9 @@ while not named:
   def valid_name(userName):
     leng = len(userName)
     valid_leng = bool(leng >= 2 and leng <= 15)
-    nums = 0
-
-    for i in userName:
+    nums = False
+  
+    for i in userName: 
       if i.isdigit():
         nums += 1
       else:
